@@ -1,9 +1,9 @@
 <script>
-	const answer = $state(Math.floor(Math.random()*10)%6)
+	let answer = $state(Math.floor(Math.random() * 10) % 6)
 </script>
 
-<h1>Grok says: "Your Fate is Decided,</h1>
-<img src="./lib/assets/magic_grok_ball.png">
+<h1>Grok says: "Your Fate is Decided"</h1>
+<img src="/magic_grok_ball.png" alt="Magic Grok Ball" />
 
 
 <h3>
